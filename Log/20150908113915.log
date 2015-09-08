@@ -1,0 +1,15 @@
+2015-09-08 11:39:15,372 interface:INFO Log file create
+2015-09-08 11:39:15,375 interface.Temp1:INFO temo1 log
+2015-09-08 11:39:15,375 interface.venus:INFO Init Venus Object
+2015-09-08 11:39:15,377 interface.venus:INFO ========Delete Old Venus Config========
+2015-09-08 11:39:15,378 interface.venus:INFO old application.properties file exist, remove it
+2015-09-08 11:39:15,381 interface.venus:INFO ========Create New Venus Config========
+2015-09-08 11:39:15,381 interface.venus:INFO VenusAddress venus.service.ipAddressList = 10.32.140.83:16800
+
+2015-09-08 11:39:15,382 interface.venus:INFO VenusConfig venus.socket.receiveBufferSize  = 64
+venus.socket.sendBufferSize = 64
+2015-09-08 11:39:15,384 interface.venus:INFO ========Run Venus Adaptor========
+2015-09-08 11:39:32,619 interface.venus:INFO ========Close Venus Adaptor========
+2015-09-08 11:39:32,772 interface.venus:INFO Close child process
+=======Close Venus Adaptor========
+Close child process

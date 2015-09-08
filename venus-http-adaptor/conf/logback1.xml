@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration scan="true" scanPeriod="1 minutes">
+	<!-- 声明变量 -->
+	<substitutionProperty name="log.base" value="${project.home}/logs" />
+
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<layout class="ch.qos.logback.classic.PatternLayout">
+			<pattern>%-4relative [%thread] %-5level %class - %msg%n</pattern>
+		</layout>
+	</appender>
+
+	<appender name="FILE" class="ch.qos.logback.core.FileAppender">
+		<layout class="ch.qos.logback.classic.PatternLayout">
+			<pattern>%-4relative [%thread] %-5level %class - %msg%n</pattern>
+		</layout>
+		<File>${project.home}/logs/project.log</File>
+	</appender>
+
+	<logger name="chapters.architecture" level="error" />
+
+	<root level="error">
+		<appender-ref ref="STDOUT" />
+	</root>
+
+</configuration>
