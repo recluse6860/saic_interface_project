@@ -1,0 +1,25 @@
+2015-09-24 17:53:31,298 interface:INFO Log file create
+2015-09-24 17:53:31,302 interface.PayMdm:INFO PayMdm Setup
+2015-09-24 17:53:31,305 interface.venus:INFO Init Venus Object
+2015-09-24 17:53:31,309 interface.venus:INFO ========Delete Old Venus Config========
+2015-09-24 17:53:31,315 interface.venus:INFO old application.properties file exist, remove it
+2015-09-24 17:53:31,319 interface.venus:INFO ========Create New Venus Config========
+2015-09-24 17:53:31,322 interface.venus:INFO VenusAddress venus.service.ipAddressList = 10.32.140.83:16800
+
+2015-09-24 17:53:31,329 interface.venus:INFO VenusConfig venus.socket.receiveBufferSize  = 64
+venus.socket.sendBufferSize = 64
+2015-09-24 17:53:31,338 interface.venus:INFO ========Run Venus Adaptor========
+2015-09-24 17:53:46,368 interface.CreditSearchService.QueryBalance:INFO CreditSearchService.QueryBalance start
+2015-09-24 17:53:46,835 interface.CreditSearchService.QueryBalance:INFO dddddddddd
+2015-09-24 17:53:46,845 interface.redis:INFO Init Redis Object
+2015-09-24 17:53:46,849 interface.redis:INFO RedisHost 10.32.140.82
+2015-09-24 17:53:46,852 interface.redis:INFO RedisPort 6800
+2015-09-24 17:53:46,858 interface.redis:INFO RedisDB 12
+2015-09-24 17:53:46,868 interface.redis:INFO True
+2015-09-24 17:53:46,871 interface.StockService.QueryStockRedis:INFO StockService.QueryStockRedis start
+2015-09-24 17:53:46,875 interface.StockService.QueryStockRedis:INFO Redis stock is 88
+2015-09-24 17:53:46,894 interface.StockService.QueryStockRedis:INFO request status is 200
+2015-09-24 17:53:46,897 interface.StockService.QueryStockRedis:INFO venus error code 0
+2015-09-24 17:53:46,900 interface.StockService.QueryStockRedis:INFO venus msg is {"map":{"5280":"88"},"success":true}
+2015-09-24 17:53:46,905 interface.venus:INFO ========Close Venus Adaptor========
+2015-09-24 17:53:47,092 interface.venus:INFO Close child process
